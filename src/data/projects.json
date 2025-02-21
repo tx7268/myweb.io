@@ -1,0 +1,41 @@
+[
+  {
+    "title": "个人网站",
+    "description": "这是我的个人网站，展示了我的技能和项目。",
+    "technologyStack": ["HTML", "CSS", "JavaScript"],
+    "results": {
+      "userGrowth": "30%",
+      "visitors": "1000+"
+    },
+    "link": {
+      "demo": "https://example.com/demo",
+      "github": "https://github.com/example/personal-portfolio"
+    }
+  },
+  {
+    "title": "电商平台",
+    "description": "一个功能齐全的电商平台，支持用户注册、商品浏览和购物车功能。",
+    "technologyStack": ["React", "Node.js", "MongoDB"],
+    "results": {
+      "userGrowth": "50%",
+      "sales": "$5000+"
+    },
+    "link": {
+      "demo": "https://example.com/ecommerce-demo",
+      "github": "https://github.com/example/ecommerce-platform"
+    }
+  },
+  {
+    "title": "博客系统",
+    "description": "一个简单的博客系统，允许用户发布和管理文章。",
+    "technologyStack": ["Vue.js", "Firebase"],
+    "results": {
+      "userGrowth": "20%",
+      "posts": "200+"
+    },
+    "link": {
+      "demo": "https://example.com/blog-demo",
+      "github": "https://github.com/example/blog-system"
+    }
+  }
+]

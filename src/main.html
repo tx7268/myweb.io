@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介 | 何维</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">HW</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="active"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> 技能栈</a></li>
+                <li><a href="#skill-progress"><i class="fas fa-chart-bar"></i> 技能熟练度</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> 教育经历</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> 作品展示</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> 联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <div id="fullpage">
+        <!-- 自我介绍页 -->
+        <div class="section" id="about">
+            <div class="intro-container">
+                <h1>何维</h1>
+                <p class="subtitle">前端工程师、嵌入式工程师、CV工程师、python工程师</p>
+                <div class="intro-text">
+                    <p>年龄 ：21</p>
+                    <p>学历 ：本科</p>
+                    <p>热爱编程，专注web开发</p>
+                    <p>追求代码质量与用户体验</p>
+                    <p>爱好：阅读、旅行、摄影、健身</p>
+                    <p>座右铭 ： 天行健，君子以自强不息。地势坤，君子以厚德载物。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 技能栈页 -->
+        <div class="section" id="skills">
+            <div class="skills-container">
+                <h2>技能栈</h2>
+                <div class="skills-grid">
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/VS Code.svg" alt="VS Code">
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                            <p class="skill-description">精通VS Code开发环境，熟悉各类插件开发与调试</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/webstorm.svg" alt="WebStorm">
+                            <span>WebStorm</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/Altiumdesigner.svg" alt="Altium esigner">
+                            <span>Altium Designer</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/Armkeil.svg" alt="Armkeil">
+                            <span>Armkeil</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/Java.svg" alt="Java">
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/matlab.svg" alt="matlab">
+                            <span>Matlab</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/Multisim.svg" alt="Multisim">
+                            <span>Multisim</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+
+                    </div>
+                                        <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/Stm.svg" alt="Stm">
+                            <span>Stm</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <p class="skill-description">熟练使用WebStorm进行前端开发，了解其高级特性</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" onclick="toggleSkill(this)">
+                        <div class="skill-header">
+                            <img src="assets/images/tools/pycharm.svg" alt="PyCharm">
+                            <span>PyCharm</span>
+                        </div>
+                        <div class="skill-detail">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <p class="skill-description">精通PyCharm进行Python开发，掌握调试和性能分析</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 技能熟练度页面 -->
+        <div class="section" id="skill-progress">
+            <div class="skills-wrapper">
+                <h2 class="section-title">技能熟练度</h2>
+                <div class="skills-grid">
+                    <!-- 技能条目 -->
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">VS Code</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">webstorm</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Altium Designer</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                        
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Armkeil</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                        
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                        
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Matlab</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                        
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Multisim</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                                           
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Stm</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class "skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                                                            
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PyCharm</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                     
+                    <!-- 其他技能项复制此结构 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 技能熟练度后添加教育经历页面 -->
+        <div class="section" id="education">
+            <h2 class="section-title">教育经历</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-date">2022 - 2026</div>
+                    <div class="education-content">
+                        <h3>中国计量大学</h3>
+                        <p>自动化</p>
+                        <p>主修课程：C语言程序设计、数据结构、计算机网络、嵌入式系统等</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-date">2023</div>
+                    <div class="education-content">
+                        <h3>校内荣誉</h3>
+                        <p>...</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 作品展示页面 -->
+        <div class="section" id="projects">
+            <h2 class="section-title">作品展示（还没编好）</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="项目1">
+                    </div>
+                    <div class="project-info">
+                        <h3>项目名称</h3>
+                        <p>项目描述</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系方式页 -->
+        <div class="section" id="contact">
+            <h2>联系我</h2>
+            <div class="contact-row">
+                <div class="contact-item">
+                    <img src="assets/images/qq-icon.png" alt="QQ">
+                    <p>1768362960</p>
+                    <div class="qr-code">
+                        <img src="assets/images/QQ-qr.jpg" alt="QQ二维码">
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/images/wechat-icon.png" alt="微信">
+                    <p>HELLOW_sonny996</p>
+                    <div class="qr-code">
+                        <img src="assets/images/wechat-qr.jpg" alt="微信二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
